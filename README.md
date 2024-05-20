@@ -13,6 +13,10 @@ To install requirements:
 ```setup
 pip install -r requirements.txt
 ```
+## Data
+
+We have included notebooks detailing parts of the extraction procedure for the patient subcohorts for eICU and MIMIC-III. Please note that these rely on access to large .csv files from PhysioNet which you can obtain after certification here: https://physionet.org/content/eicu-crd/2.0/ and https://physionet.org/content/mimiciii/1.4/
+
 ## Training
 
 To train the model(s) in the paper, run the notebook in the Train.ipynb file. You can adjust number of layers, graphs, slices in the model definition. The learning rate and parameters can be adjusted accordingly in the function calls.
