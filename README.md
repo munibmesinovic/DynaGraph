@@ -2,7 +2,7 @@
 
 This repository is an implementation of DynaGraph: Dynamic Contrastive Graph for Interpretable Multi-label Prediction using Time-Series EHR Data. 
 
-![plot][https://github.com/munibmesinovic/DynaGraph/blob/1c0929a0834953746aa9a253649da8d86ab0a16f/DynaGraph2.png]
+![][https://github.com/munibmesinovic/DynaGraph/blob/1c0929a0834953746aa9a253649da8d86ab0a16f/DynaGraph2.png]
 
 ## Requirements
 
