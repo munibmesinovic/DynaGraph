@@ -1,0 +1,15 @@
+numpy==1.25.2
+argparse==1.1
+torch==2.2.1+cu121
+fastai==2.7.15
+platform==1.0.8
+re==2.2.1
+csv==1.0
+json==2.0.9
+matplotlib==3.7.1
+pathlib==1.0.1
+fastcore==1.5.35
+requests==2.31.0
+yaml==6.0.1
+pandas==2.0.3
+scipy==1.11.4
