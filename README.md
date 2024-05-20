@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 ## Data
 
-We have included notebooks detailing parts of the extraction procedure for the patient subcohorts for eICU and MIMIC-III. Please note that these rely on access to large .csv files from PhysioNet which you can obtain after certification here: https://physionet.org/content/eicu-crd/2.0/ and https://physionet.org/content/mimiciii/1.4/
+We have included notebooks detailing parts of the extraction procedure for the patient subcohorts for eICU and MIMIC-III. We have also included the .npy files to reproduce the results for eICU but because of the size of the MIMIC III cohorts, the size of the files for MIMIC III cannot be uploaded. We will provide them in a separate hosting service later on. Please note that these rely on access to large .csv files from PhysioNet which you can obtain after certification here: https://physionet.org/content/eicu-crd/2.0/ and https://physionet.org/content/mimiciii/1.4/
 
 ## Training
 
