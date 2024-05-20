@@ -1,4 +1,4 @@
-# Title
+# DynaGraph
 
 This repository is an implementation of DynaGraph: Dynamic Contrastive Graph for Interpretable Multi-label Prediction using Time-Series EHR Data. 
 
