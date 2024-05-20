@@ -27,17 +27,13 @@ The pre-trained models for the benchmarks as well as for DynaGraph under models.
 
 ## Results
 
-Our model achieves the following performance on :
+Our model achieves the following performance on eICU:
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
-
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
-
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
-
-
-## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
+| Model name         | Balanced Accuracy  |   Sensitivity  |
+| ------------------ |----------------    | -------------- |
+| LSTM               |       59.67%       |     36.85%     |
+| Transformer        |       57.75%       |     25.51%     |
+| GAT                |       63.48%       |     34.22%     |
+| GCN                |       55.64%       |     26.78%     |
+| GIN                |       68.37%       |     70.65%     |
+| DynaGraph          |       73.52%       |     86.00%     |
