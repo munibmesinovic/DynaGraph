@@ -41,3 +41,7 @@ Our model achieves the following performance on eICU:
 | GCN                |       55.64%       |     26.78%     |
 | GIN                |       68.37%       |     70.65%     |
 | DynaGraph          |       73.52%       |     86.00%     |
+
+## Interpretability
+
+To obtain the interpretability figures, please run the Explainability_Figures.ipynb notebook. The weights are saved in the Interpretability Weights folder for eICU and MIMIC III respectively.
