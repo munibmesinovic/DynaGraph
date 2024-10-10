@@ -2,10 +2,6 @@
 
 This repository is an implementation of DynaGraph: Dynamic Contrastive Graph for Interpretable Multi-label Prediction using Time-Series EHR Data. 
 
-<p align="center">
-<img src="DynaGraph2.png" width="700">
-</p>
-
 ## Requirements
 
 To install requirements:
@@ -15,7 +11,9 @@ pip install -r requirements.txt
 ```
 ## Data
 
-We have included notebooks detailing parts of the extraction procedure for the patient subcohorts for eICU and MIMIC-III. We have also included the .npy files to reproduce the results for eICU but because of the size of the MIMIC III cohorts, the size of the files for MIMIC III cannot be uploaded. We will provide them in a separate hosting service later on. Please note that these rely on access to large .csv files from PhysioNet which you can obtain after certification here: https://physionet.org/content/eicu-crd/2.0/ and https://physionet.org/content/mimiciii/1.4/
+We have included notebooks detailing parts of the extraction procedure for the patient subcohorts for eICU and MIMIC-III. We have also included the pre-processing steps as relevant. We have also included the .npy files to reproduce the results for eICU but because of the size of the MIMIC III cohorts, the size of the files for MIMIC III cannot be uploaded. We will provide them in a separate hosting service later on. Please note that these rely on access to large .csv files from PhysioNet which you can obtain after certification here: https://physionet.org/content/eicu-crd/2.0/ and https://physionet.org/content/mimiciii/1.4/
+
+For HiRID ICU please follow guidance from the official providers on obtaining the imputed dataset: https://github.com/HIRID/HiRID_v1
 
 ## Training
 
@@ -35,11 +33,11 @@ Our model achieves the following performance on eICU:
 
 | Model name         | Balanced Accuracy  |   Sensitivity  |
 | ------------------ |----------------    | -------------- |
-| LSTM               |       59.67%       |     36.85%     |
-| Transformer        |       57.75%       |     25.51%     |
-| GAT                |       63.48%       |     34.22%     |
-| GCN                |       55.64%       |     26.78%     |
-| GIN                |       68.37%       |     70.65%     |
+| LSTM               |       60.33%       |     39.58%     |
+| Transformer        |       61.72%       |     32.74%     |
+| GAT                |       66.10%       |     36.74%     |
+| GCN                |       68.80%       |     37.91%     |
+| TodyNet            |       69.92%       |     78.11%     |
 | DynaGraph          |       73.52%       |     86.00%     |
 
 ## Interpretability
