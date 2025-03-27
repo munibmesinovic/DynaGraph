@@ -19,7 +19,7 @@ EHRSHOT data can be accessed after making a request here: https://redivis.com/da
 
 ## Training
 
-To train the model(s) in the paper, run the notebook in the Train.ipynb file. You can adjust number of layers, graphs, slices in the model definition. The learning rate and parameters can be adjusted accordingly in the function calls.
+To train the model(s) in the paper, run the notebook in the DynaGraph - Submission.ipynb file. You can adjust number of layers, graphs, slices in the model definition. The learning rate and parameters can be adjusted accordingly in the function calls.
 
 ## Evaluation
 
