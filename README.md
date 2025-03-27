@@ -15,6 +15,8 @@ We have included notebooks detailing parts of the extraction procedure for the p
 
 For HiRID ICU please follow guidance from the official providers on obtaining the imputed dataset: https://github.com/HIRID/HiRID_v1
 
+EHRSHOT data can be accessed after making a request here: https://redivis.com/datasets/53gc-8rhx41kgt
+
 ## Training
 
 To train the model(s) in the paper, run the notebook in the Train.ipynb file. You can adjust number of layers, graphs, slices in the model definition. The learning rate and parameters can be adjusted accordingly in the function calls.
@@ -26,19 +28,6 @@ To evaluate the model and retrieve the results for a particular seed, run the Ev
 The dataset samples are located in the Data folder and are loaded in the notebook accordingly. The ones for MIMIC-III are labeled with an 'X' in the title. The numbers at the end correspond to the respective seeds under which the data splits were generated.
 
 The pre-trained models for the benchmarks are in the models folder. Due to the size limitations, we only include one of the seed runs, but can provide more if requested. The model trained on eICU (seed 1992) can be downloaded here and put in the models directory for DynaGraph results: https://1drv.ms/u/s!ApOGkkQ5RHiJap_qxWUDaWYS2w8?e=VrvFgU
-
-## Results
-
-Our model achieves the following performance on eICU:
-
-| Model name         | Balanced Accuracy  |   Sensitivity  |
-| ------------------ |----------------    | -------------- |
-| LSTM               |       60.33%       |     39.58%     |
-| Transformer        |       61.72%       |     32.74%     |
-| GAT                |       66.10%       |     36.74%     |
-| GCN                |       68.80%       |     37.91%     |
-| TodyNet            |       69.92%       |     78.11%     |
-| DynaGraph          |       73.52%       |     86.00%     |
 
 ## Interpretability
 
