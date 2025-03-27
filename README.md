@@ -31,4 +31,4 @@ The pre-trained models for the benchmarks are in the models folder. Due to the s
 
 ## Interpretability
 
-To obtain the interpretability figures, please run the Explainability_Figures.ipynb notebook. The weights are saved in the Interpretability Weights folder for eICU and MIMIC III respectively.
+To obtain the interpretability figures, please run the Explainability_Figures.ipynb notebook. We have included examples of how to visualise the weights on the test set, but the same can be done for the training weights. The weights are saved in the Interpretability Weights folder for eICU and MIMIC III respectively.
