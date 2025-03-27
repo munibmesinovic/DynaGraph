@@ -27,7 +27,7 @@ To evaluate the model and retrieve the results for a particular seed, run the Ev
 
 The dataset samples are located in the Data folder and are loaded in the notebook accordingly. The ones for MIMIC-III are labeled with an 'X' in the title. The numbers at the end correspond to the respective seeds under which the data splits were generated.
 
-The pre-trained models for the benchmarks are in the models folder. Due to the size limitations, we only include one of the seed runs, but can provide more if requested. The model trained on eICU (seed 1992) can be downloaded here and put in the models directory for DynaGraph results: https://1drv.ms/u/s!ApOGkkQ5RHiJap_qxWUDaWYS2w8?e=VrvFgU
+The pre-trained models for the benchmarks are in the models folder. Due to the size limitations, we only include one of the seed runs, but can provide more if requested.
 
 ## Interpretability
 
